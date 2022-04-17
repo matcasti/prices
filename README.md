@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-El objetivo de `prices` es permitir un cálculo sencillo de los precios de los trabajos dependientes del tiempo para los autónomos o cualquier otra forma de trabajo que requiera cobrar por hora/sesión.
+El objetivo de `prices` es permitir un cálculo sencillo de los precios de los trabajos dependientes del tiempo para los independientes o cualquier otra forma de trabajo que requiera cobrar por hora/sesión.
 
 ## Instalación
 
