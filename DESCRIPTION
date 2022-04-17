@@ -1,12 +1,12 @@
 Package: prices
-Title: Calculate Prices por Time-Dependent Work
+Title: Calcula Precios para trabajo Tiempo-Dependiente
 Date: 2022-04-17
 Version: 0.0.1
 Authors@R: 
     person("Matías", "Castillo Aguilar", , "matcasti@umag.cl", role = c("aut", "cre"))
 Description: 
-    Calculate prices for time-dependent work for freelancers or any
-    other form of work that requires to charge for hour/session.
+    Calcule los precios de los trabajos en función del tiempo para independientes
+    o cualquier otra forma de trabajo que requiera cobrar por hora/sesión.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
