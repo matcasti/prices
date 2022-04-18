@@ -40,7 +40,7 @@ prices_ranges <- function(valor_hora,
   highest <- valor_hora[[2]]
 
   valores <- seq.int(lowest, highest, length.out = length(sesiones))
-  valor_plan = sesiones*valores
+  valor_plan <- sesiones*valores
 
   out <- data.frame(
     sesiones = sesiones,
