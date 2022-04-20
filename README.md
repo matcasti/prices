@@ -2,6 +2,7 @@
 # prices
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/matcasti/prices/workflows/R-CMD-check/badge.svg)](https://github.com/matcasti/prices/actions)
 <!-- badges: end -->
 
 El objetivo de `prices` es permitir un cálculo sencillo de los precios de los trabajos dependientes del tiempo para los independientes o cualquier otra forma de trabajo que requiera cobrar por hora/sesión.
