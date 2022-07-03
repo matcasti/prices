@@ -1,0 +1,17 @@
+fecha_pago,  concepto,             valor
+2022-07-01,  Venta stock,           1000
+2022-07-03,  Arriendo,             -500
+2022-07-05,  Comida,               -200
+2022-07-10,  Gastos comunes,       -70
+2022-07-15,  Venta stock,           500
+2022-07-28,  Venta stock,           200
+2022-07-28,  Marketing,            -120
+2022-07-28,  Trabajadores,         -500
+2022-08-01,  Venta stock,           100
+2022-08-03,  Arriendo,             -500
+2022-08-05,  Comida,               -200
+2022-08-10,  Gastos comunes,       -90
+2022-08-15,  Venta stock,           700
+2022-08-28,  Venta stock,           300
+2022-08-28,  Marketing,            -120
+2022-08-28,  Trabajadores,         -500

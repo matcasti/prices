@@ -2,9 +2,9 @@
 % Please edit documentation in R/prices_ranges.R
 \name{prices_ranges}
 \alias{prices_ranges}
-\title{Generador de precios en secuencia}
+\title{Generador de rangos de precios}
 \usage{
-prices_ranges(valor_hora, sesiones = c(4, 8, 12, 24, 36, 48, 60), k = 3)
+prices_ranges(valor_hora, sesiones = c(4, 8, 12, 24, 36), k = 3)
 }
 \arguments{
 \item{valor_hora}{Númerico de largo 2. Vector con los valores a interpolar.}
@@ -20,7 +20,7 @@ indicando el valor final del plan.
 }
 \description{
 Dado un precio mínimo y máximo (en un vector de longitud 2), genera
-una secuencia de precios tomando los intervalos regulares desde el
+un rango de precios tomando los intervalos regulares desde el
 mínimo hasta el máximo dividido en el número total de sesiones dadas.
 }
 \examples{

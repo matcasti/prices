@@ -1,10 +1,10 @@
-#' @title Generador de precios en secuencia
+#' @title Generador de rangos de precios
 #' @name prices_ranges
 #'
 #' @description
 #'
 #'   Dado un precio mínimo y máximo (en un vector de longitud 2), genera
-#'   una secuencia de precios tomando los intervalos regulares desde el
+#'   un rango de precios tomando los intervalos regulares desde el
 #'   mínimo hasta el máximo dividido en el número total de sesiones dadas.
 #'
 #' @param valor_hora Númerico de largo 2. Vector con los valores a interpolar.
@@ -28,12 +28,12 @@
 #' @export
 
 prices_ranges <- function(valor_hora,
-                          sesiones = c(4, 8, 12, 24, 36, 48, 60),
+                          sesiones = c(4, 8, 12, 24, 36),
                           k = 3) {
   stopifnot(
-    "valor_hora must be of length 2" = length(valor_hora) == 2,
-    "valor_hora must be numeric" = is.numeric(valor_hora),
-    "sesiones must be numeric" = is.numeric(sesiones)
+    "valor_hora must be a vector of length 2" = length(valor_hora) == 2,
+    "valor_hora must be a numeric vector" = is.numeric(valor_hora),
+    "sesiones must be a numeric vector" = is.numeric(sesiones)
   )
 
   lowest <- valor_hora[[1]]

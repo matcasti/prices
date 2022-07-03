@@ -10,7 +10,12 @@ Description:
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0
 URL: https://github.com/matcasti/prices,
     https://matcasti.github.io/prices/
 BugReports: https://github.com/matcasti/prices/issues
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    data.table
